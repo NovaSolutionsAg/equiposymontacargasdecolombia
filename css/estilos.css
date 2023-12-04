@@ -400,6 +400,8 @@ footer .contenedor .logofooter {
 
 footer .contenedor .logofooter img {
     border-radius: 49%;
+    width:150px;
+    heigth:150px;
 }
 
 footer .contenedor .contacto .info .nit {
