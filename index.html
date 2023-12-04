@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimun-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>EYMDECOLOMBIASAS</title>
+</head>
+<body>
+    <header>
+        <div class="contenedor">
+            <nav class="menu">
+                <a href=""></a>
+                <a href=""></a>
+            </nav>
+
+            <div class="contenedor-texto">
+                <div class="texto">
+                    <h1 class="nombre">Equipos y Montacargas de Colombia</h1>
+
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="main">
+        <section class="acerca-de">
+            <div class="contenedor">
+                <div class="foto">
+                    <img src="img/foto.jpg" width="250" heigth="250" alt="EYMDECOLOMBIA">
+                </div>
+
+                <div class="texto">
+                    <h3 class="titulo">Nosotros</h3>
+                    <p>
+                        Ofrecemos soluciones ideales para <span class="bold">movimiento de carga y almacenamiento</span>, a traves de renting y/o venta de equipos. Además contamos con <span class="bold">asesoria especializada y servicio tecnico</span> para su empresa. Tenemos bastante trayectoria en nuestras 3 sedes ubicadas en Yumbo (cali), Mosquera (Bogota) y Malambo (Cartagena). 
+                    </p>
+                </div>
+            </div>
+        </section>
+
+
+
+<!--PRESENTACION TRABAJOS O SERVICIOS -->
+
+
+        <section class="servicios">
+            <div class="contenedor contenedor-servicios">
+                <h3 class="titulo">Servicios</h3>
+
+                <div class="slideshow-container" id="slideshow-container">
+                    
+                    <div class="mySlides">
+                        <img src="img/estanteria1.jpeg" alt="Imagen 1">
+                        <div class="text">ESTANTERIA</div>
+
+                    </div>
+
+                    <div class="mySlides">
+                        
+                        <div class="parrafo-estanteria">
+
+                            <h3 class="subtitulos">Venta de estanteria Nueva</h3>
+                            <p>Estanteria diseñada com pletamente bajo las especificaciones del cliente</p>
+
+                            <h3 class="subtitulos">Venta de estanteria usada</h3>
+                            <p>Ofrecemos estanteria usada en optimas condiciones, la cual se adapta a las necesidades de nuestros clientes tanto en adecuacion como en precio</p>
+
+                            <h3 class="subtitulos">Mantenimiento</h3>
+
+                            <p>Realizamos todos los mantenimientos necesarios para que su estanteria siempre permamezca en optimas condiciones de uso</p>
+                           
+                        </div>
+
+                    </div>
+
+                    
+
+
+                    <div class="mySlides">
+                        <img src="img/bg.jpeg" alt="Imagen 2">
+                        <div class="text">RENTING</div>
+                    </div>
+
+                        <div class="mySlides">
+                        
+                        <div class="parrafo-renting">
+                            <p>Comercializamos una linea completa de equipos calificados para los sectores de la mineria, petroleos, construccion e industrias. Ofrecemos el servicio de renting por horas, dias, meses y años a raves de contratos. Tenemos a su disposicion montacargas de combustion hasta 20 toneladas  y electricas de hasta 10 metros de profundidad sencilla y doble rich de todas las marcas</p>
+                           
+                        </div>
+
+                    </div>
+
+                    
+
+                    <div class="mySlides">
+                        <img src="img/3.jpg" alt="Imagen 3">
+                        <div class="text">MANTENIMIENTO</div>
+                    </div>
+
+                    <div class="mySlides">
+                        
+                        <div class="parrafo-mantenimiento">
+                            <h3 class="subtitulos">Mantenimiento preventivo y correctivo</h3>
+                            <p>Ofrece reparacion y mantenimiento preventivo y correctivo a equipos de montacargas y estibadores manuales de todas las marcas y modelos con personal calificado y especializado de una manera rapida y garantizando que sus equipos quedan en perfectas manos.</p>
+                           
+                        </div>
+
+                    </div>
+
+
+
+
+
+
+
+                    <div class="mySlides">
+                        <img src="img/asesoria.jpg" alt="Imagen 4">
+                        <div class="text">ASESORIA</div>
+                    </div>
+
+                    <div class="mySlides">
+                        
+                        <div class="parrafo-asesoria">
+                            <p>Conocemos de primera mano la necesidad de ubicacion de carga dentro de espacios cerrados. Debido a esto nuestros ingenieros profesionales trabajan de la mano con sistemas automatizados para optimizar su operacion.</p>
+                           
+                        </div>
+
+                    </div>
+
+
+
+
+
+
+                    <div class="mySlides">
+                        <img src="img/ventas.jpg" alt="Imagen 5">
+                        <div class="text">VENTAS</div>
+                    </div>
+                    <div class="mySlides">
+                        
+                        <div class="parrafo-ventas">
+                            <p>Conocemos de primera mano la necesidad de ubicacion de carga dentro de espacios cerrados. Debido a esto nuestros ingenieros profesionales trabajan de la mano con sistemas automatizados para optimizar su operacion.</p>
+                           
+                        </div>
+
+                    </div>
+
+
+
+
+
+
+
+
+
+
+
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                 </div>
+
+        <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides((slideIndex += n));
+        }
+
+        function showSlides(n) {
+            let i;
+            const slides = document.getElementsByClassName("mySlides");
+
+            if (n > slides.length) {
+                slideIndex = 1;
+            }
+
+            if (n < 1) {
+                slideIndex = slides.length;
+            }
+
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+
+            slides[slideIndex - 1].style.display = "block";
+        }
+            </script>
+
+
+                
+
+
+            </div>
+        </section>
+
+
+
+<!-- GALERIA DE IMAGENES MONTACARGAS-->
+
+        <section class="galeria">
+            <div class="contenedor">
+                <h3 class="titulo">Galeria</h3>
+                <div class="contenedor-galeria">
+                    <div class="imagen">
+                        <div class="thumb">
+                            <img src="img/1.jpg" width="200" heigth="200" alt="">
+                        </div>
+                    </div>
+
+                    <div class="imagen">
+                        <div class="thumb">
+                            <img src="img/2.jpg" width="200" heigth="200" alt="">
+                        </div>
+                    </div>
+
+
+                     <div class="imagen">
+                        <div class="thumb">
+                            <img src="img/3.jpg" width="200" heigth="200" alt="">
+                        </div>
+                    </div>
+
+
+                    <div class="imagen">
+                        <div class="thumb">
+                            <img src="img/4.jpg" width="200" heigth="200" alt="">
+                        </div>
+                    </div>
+
+                    <div class="imagen">
+                        <div class="thumb">
+                            <img src="img/5.jpg" width="200" heigth="200" alt="">
+                        </div>
+                    </div>
+
+                    <div class="imagen">
+                        <div class="thumb">
+                            <img src="img/6.jpg" width="200" heigth="200" alt="">
+                        </div>
+                    </div>
+
+
+                    <div class="imagen">
+                        <div class="thumb">
+                            <img src="img/7.jpg" width="200" heigth="200" alt="">
+                        </div>
+                    </div>
+
+
+                    <div class="imagen">
+                        <div class="thumb">
+                            <img src="img/8.jpg" width="200" heigth="200" alt="">
+                        </div>
+                    </div>
+
+
+                    <div class="imagen">
+                        <div class="thumb">
+                            <img src="img/9.jpg" width="200" heigth="200" alt="">
+                        </div>
+                    </div>
+
+                     <div class="imagen">
+                        <div class="thumb">
+                            <img src="img/10.jpg" width="200" heigth="200" alt="">
+                        </div>
+                    </div>
+
+                     <div class="imagen">
+                        <div class="thumb">
+                            <img src="img/11.jpg" width="200" heigth="200" alt="">
+                        </div>
+                    </div>
+
+                     <div class="imagen">
+                        <div class="thumb">
+                            <img src="img/12.jpg" width="200" heigth="200" alt="">
+                        </div>
+                    </div>
+
+                     <div class="imagen">
+                        <div class="thumb">
+                            <img src="img/13.jpg" width="200" heigth="200" alt="">
+                        </div>
+                    </div>
+
+                     <div class="imagen">
+                        <div class="thumb">
+                            <img src="img/14.jpg" width="200" heigth="200" alt="">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+
+<!-- FORMULARIO DE CONTACTO -->
+
+    <footer>
+        <div class="contenedor">
+            <section class="contacto">
+                <h2>CONTACTANOS</h2>
+                <div class="info">
+
+                    <p class="nit">Equipos y montacargas de Colombia <br>Nit.901.333.797-9</p>
+
+                    <p class="info">Escribemos al siguiente correo y denos el gusto de atenderle:</p>
+
+                    <p class="correo">gerencia@equiposymontacargas.com.co</p>
+
+                    <p class="info2">O ponte en contacto con nosotros al siguiente numero:</p>
+
+                    <p class="numero">(+57) 311 576 1266</p>
+
+                    <div class="logofooter"><img src="img/logofooter.jpg" width="250" heigth
+                    ="250" alt="">
+                    </div>
+
+                    <div class="derechos">
+                        <h3>Equipos y montacargas de colombia. Todos los derechos reservados</h3>
+                    </div>
+
+                </div>
+
+            </section>
+        </div>
+    </footer>
+
+
+    </section>
+</body>
+</html>
