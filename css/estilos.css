@@ -203,10 +203,11 @@ header .contenedor-texto .texto .nombre {
         }
 
         .mySlides .parrafo-estanteria p {
-            padding: 5px;
+            
             color:#fff;
-            font-size: 20px;
+            font-size: 16px;
             text-align: center;
+            
 
         }
 
